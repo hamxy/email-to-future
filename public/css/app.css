@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html {
+    font-size: 19px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #444;
+    text-rendering: optimizeLegibility;
+
+    /* Background */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(img/time.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* ----- HEADINGS ----- */
+h3 {
+    font-size: 1.4rem;
+}
+
+
+
+/* ---------- */
+/* Header */
+/* ---------- */
+
+
+/* navbar */
+header {
+    color: white;
+}
+
+header ul a{
+    color: white;
+    text-align: center;
+}
+
+header ul a:hover{
+    color: rgb(255, 204, 142);
+}
+
+a.h-left
+{
+    position: relative;
+}
+
+
+/* hamburger */
+.fa-bars {
+    font-size: 150%;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;    
+    color: rgb(255, 236, 212);
+    letter-spacing: 5px;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 204, 142);
+}
+
+
+
+
